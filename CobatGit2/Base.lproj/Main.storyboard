@@ -108,7 +108,7 @@
             </objects>
             <point key="canvasLocation" x="513" y="790"/>
         </scene>
-        <!--View Controller-->
+        <!--Anthony View Controller-->
         <scene sceneID="KMj-yh-PqQ">
             <objects>
                 <viewController id="rY7-ic-zen" customClass="AnthonyViewController" customModule="CobatGit2" customModuleProvider="target" sceneMemberID="viewController">
@@ -353,10 +353,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2VB-CU-fgg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-194.40000000000001" y="53.940886699507388"/>
+            <point key="canvasLocation" x="-335" y="54"/>
         </scene>
     </scenes>
     <resources>
         <image name="Gift" width="471" height="471"/>
+        <image name="kacangmede" width="650" height="413"/>
+        <image name="monas4" width="1125" height="2436"/>
     </resources>
 </document>
