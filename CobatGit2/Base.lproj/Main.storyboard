@@ -317,7 +317,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="egg"/>
                                 <connections>
-                                    <action selector="eggButton:" destination="HgT-JW-vUk" eventType="touchUpInside" id="DMd-AK-Kd5"/>
                                     <segue destination="Dhg-8R-m20" kind="show" id="U9E-Vq-p30"/>
                                 </connections>
                             </button>
