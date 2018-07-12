@@ -82,7 +82,7 @@
             </objects>
             <point key="canvasLocation" x="513" y="790"/>
         </scene>
-        <!--Anthony View Controller-->
+        <!--View Controller-->
         <scene sceneID="KMj-yh-PqQ">
             <objects>
                 <viewController id="rY7-ic-zen" customClass="AnthonyViewController" customModule="CobatGit2" customModuleProvider="target" sceneMemberID="viewController">
@@ -237,15 +237,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Santos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d2m-RH-OYu">
-                                <rect key="frame" x="52" y="269" width="269" height="188"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Santos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d2m-RH-OYu">
+                                <rect key="frame" x="53" y="590" width="269" height="188"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="188" id="iCD-yw-VF6"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="45"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Gift" translatesAutoresizingMaskIntoConstraints="NO" id="lGz-DQ-tNx">
+                                <rect key="frame" x="16" y="56" width="345" height="526"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fsz-Fg-j1u" firstAttribute="trailing" secondItem="lGz-DQ-tNx" secondAttribute="trailing" constant="20" id="5N5-br-NQT"/>
+                            <constraint firstItem="d2m-RH-OYu" firstAttribute="centerX" secondItem="N6F-7i-BuY" secondAttribute="centerX" id="9pa-mO-svG"/>
+                            <constraint firstItem="lGz-DQ-tNx" firstAttribute="leading" secondItem="fsz-Fg-j1u" secondAttribute="leading" constant="10" id="QdB-Ze-5Vn"/>
+                            <constraint firstItem="lGz-DQ-tNx" firstAttribute="top" secondItem="fsz-Fg-j1u" secondAttribute="top" constant="10" id="bEF-SX-b8c"/>
+                            <constraint firstItem="d2m-RH-OYu" firstAttribute="bottom" secondItem="fsz-Fg-j1u" secondAttribute="bottom" id="lpt-wI-w2o"/>
+                            <constraint firstItem="d2m-RH-OYu" firstAttribute="top" secondItem="lGz-DQ-tNx" secondAttribute="bottom" constant="10" id="rx0-sU-Yhf"/>
+                            <constraint firstItem="d2m-RH-OYu" firstAttribute="leading" secondItem="fsz-Fg-j1u" secondAttribute="leading" constant="53" id="s7G-Fa-sRo"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="fsz-Fg-j1u"/>
                     </view>
                 </viewController>
@@ -303,6 +317,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="monas4" width="1125" height="2436"/>
+        <image name="Gift" width="471" height="471"/>
     </resources>
 </document>
