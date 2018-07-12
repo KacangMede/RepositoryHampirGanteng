@@ -77,16 +77,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GOS-Iy-m3i">
-                                <rect key="frame" x="171" y="664" width="32" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
-                                <connections>
-                                    <segue destination="JQo-ti-TNi" kind="show" id="7cA-Ni-Gr7"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GIT HUB CLASS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o1M-NH-f0A">
-                                <rect key="frame" x="115" y="462" width="109" height="18"/>
+                                <rect key="frame" x="133" y="319" width="109" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="15"/>
                                 <nil key="textColor"/>
@@ -99,7 +91,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Otr-NB-ZQJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-335" y="790"/>
+            <point key="canvasLocation" x="-194.40000000000001" y="767.73399014778329"/>
         </scene>
         <!--Gior View Controller-->
         <scene sceneID="11R-1i-gT5">
@@ -201,25 +193,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4dP-ZM-Gu1">
-                                <rect key="frame" x="226" y="799" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="59h-YQ-N0T">
-                                <rect key="frame" x="172" y="391" width="32" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
-                                <connections>
-                                    <segue destination="vpg-7Y-tJh" kind="show" id="A1N-EW-TcM"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="DJq-52-21u"/>
                     </view>
+                    <connections>
+                        <segue destination="vpg-7Y-tJh" kind="show" id="ksN-pS-fNf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9eX-td-RTl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -279,6 +259,13 @@
                                 <rect key="frame" x="0.0" y="539" width="375" height="356"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Av-WN-0wv">
+                                <rect key="frame" x="30" y="645" width="322" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="HgT-JW-vUk" kind="show" id="ipT-40-24T"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="FSL-K5-6Rt"/>
@@ -286,7 +273,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B2L-l1-vEe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2194.4000000000001" y="26.600985221674879"/>
+            <point key="canvasLocation" x="2180" y="53.940886699507388"/>
         </scene>
         <!--Gaby View Controller-->
         <scene sceneID="C27-3y-Sdg">
@@ -334,43 +321,42 @@
             </objects>
             <point key="canvasLocation" x="2879.1999999999998" y="53.940886699507388"/>
         </scene>
-        <!--View Controller-->
+        <!--Santos View Controller-->
         <scene sceneID="p6f-N0-6De">
             <objects>
-                <viewController id="vpg-7Y-tJh" sceneMemberID="viewController">
+                <viewController id="vpg-7Y-tJh" customClass="SantosViewController" customModule="CobatGit2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="N6F-7i-BuY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Santos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d2m-RH-OYu">
-                                <rect key="frame" x="53" y="590" width="269" height="188"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="188" id="iCD-yw-VF6"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="45"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Gift" translatesAutoresizingMaskIntoConstraints="NO" id="lGz-DQ-tNx">
                                 <rect key="frame" x="16" y="56" width="345" height="526"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KbV-Al-VIX">
+                                <rect key="frame" x="16" y="633" width="343" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="43"/>
+                                <state key="normal" title="Santos"/>
+                                <connections>
+                                    <action selector="segueKeNelis:" destination="vpg-7Y-tJh" eventType="touchUpInside" id="Oz4-yX-Kb8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="fsz-Fg-j1u" firstAttribute="trailing" secondItem="lGz-DQ-tNx" secondAttribute="trailing" constant="20" id="5N5-br-NQT"/>
-                            <constraint firstItem="d2m-RH-OYu" firstAttribute="centerX" secondItem="N6F-7i-BuY" secondAttribute="centerX" id="9pa-mO-svG"/>
                             <constraint firstItem="lGz-DQ-tNx" firstAttribute="leading" secondItem="fsz-Fg-j1u" secondAttribute="leading" constant="10" id="QdB-Ze-5Vn"/>
                             <constraint firstItem="lGz-DQ-tNx" firstAttribute="top" secondItem="fsz-Fg-j1u" secondAttribute="top" constant="10" id="bEF-SX-b8c"/>
-                            <constraint firstItem="d2m-RH-OYu" firstAttribute="bottom" secondItem="fsz-Fg-j1u" secondAttribute="bottom" id="lpt-wI-w2o"/>
-                            <constraint firstItem="d2m-RH-OYu" firstAttribute="top" secondItem="lGz-DQ-tNx" secondAttribute="bottom" constant="10" id="rx0-sU-Yhf"/>
-                            <constraint firstItem="d2m-RH-OYu" firstAttribute="leading" secondItem="fsz-Fg-j1u" secondAttribute="leading" constant="53" id="s7G-Fa-sRo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fsz-Fg-j1u"/>
                     </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="SantosToNelis" id="nDy-pd-tB9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="itU-bP-DnT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2665" y="768"/>
+            <point key="canvasLocation" x="2664.8000000000002" y="767.73399014778329"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="edZ-8m-8aW">
@@ -457,4 +443,7 @@
         <image name="monas4" width="1125" height="2436"/>
         <image name="timwc" width="1000" height="1000"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="nDy-pd-tB9"/>
+    </inferredMetricsTieBreakers>
 </document>
