@@ -352,6 +352,14 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="ezG-jk-y1p"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8pP-RO-e7S">
+                                <rect key="frame" x="164" y="590" width="46" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Kju-MZ-SA5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -474,6 +482,6 @@
         <image name="timwc" width="1000" height="1000"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ezG-jk-y1p"/>
+        <segue reference="nDy-pd-tB9"/>
     </inferredMetricsTieBreakers>
 </document>
