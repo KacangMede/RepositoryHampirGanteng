@@ -363,9 +363,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fsz-Fg-j1u"/>
                     </view>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="show" identifier="SantosToNelis" id="nDy-pd-tB9"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="itU-bP-DnT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -476,6 +473,6 @@
         <image name="timwc" width="1000" height="1000"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hUo-pW-8tR"/>
+        <segue reference="ezG-jk-y1p"/>
     </inferredMetricsTieBreakers>
 </document>
