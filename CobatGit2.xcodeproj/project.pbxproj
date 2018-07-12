@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		11EE7CBC20F751EC00FB756A /* NelisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE7CBB20F751EC00FB756A /* NelisViewController.swift */; };
+		6B023B9D20F759DD003FBA28 /* SantosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B023B9C20F759DD003FBA28 /* SantosViewController.swift */; };
 		7BC1311F20F756BD0007A35B /* AnthonyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1311E20F756BD0007A35B /* AnthonyViewController.swift */; };
 		CE9103F320F74B4F00353AD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9103F220F74B4F00353AD2 /* AppDelegate.swift */; };
 		CE9103F520F74B4F00353AD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9103F420F74B4F00353AD2 /* ViewController.swift */; };
@@ -15,11 +16,11 @@
 		CE9103FB20F74B4F00353AD2 /* CobatGit2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE9103F920F74B4F00353AD2 /* CobatGit2.xcdatamodeld */; };
 		CE9103FD20F74B5000353AD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9103FC20F74B5000353AD2 /* Assets.xcassets */; };
 		CE91040020F74B5000353AD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9103FE20F74B5000353AD2 /* LaunchScreen.storyboard */; };
-		F89D2C7C20F756BE000216DD /* KlaudiusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89D2C7B20F756BE000216DD /* KlaudiusViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11EE7CBB20F751EC00FB756A /* NelisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NelisViewController.swift; sourceTree = "<group>"; };
+		6B023B9C20F759DD003FBA28 /* SantosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantosViewController.swift; sourceTree = "<group>"; };
 		7BC1311E20F756BD0007A35B /* AnthonyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnthonyViewController.swift; sourceTree = "<group>"; };
 		CE9103EF20F74B4F00353AD2 /* CobatGit2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CobatGit2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9103F220F74B4F00353AD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				CE9103F220F74B4F00353AD2 /* AppDelegate.swift */,
+				6B023B9C20F759DD003FBA28 /* SantosViewController.swift */,
 				CE9103F420F74B4F00353AD2 /* ViewController.swift */,
 				CE9103F620F74B4F00353AD2 /* Main.storyboard */,
 				7BC1311E20F756BD0007A35B /* AnthonyViewController.swift */,
@@ -152,6 +154,7 @@
 				CE9103F320F74B4F00353AD2 /* AppDelegate.swift in Sources */,
 				7BC1311F20F756BD0007A35B /* AnthonyViewController.swift in Sources */,
 				11EE7CBC20F751EC00FB756A /* NelisViewController.swift in Sources */,
+				6B023B9D20F759DD003FBA28 /* SantosViewController.swift in Sources */,
 				CE9103FB20F74B4F00353AD2 /* CobatGit2.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
