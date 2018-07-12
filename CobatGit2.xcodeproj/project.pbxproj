@@ -30,6 +30,7 @@
 		CE9103FC20F74B5000353AD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE9103FF20F74B5000353AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE91040120F74B5000353AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89D2C7B20F756BE000216DD /* KlaudiusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlaudiusViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +47,6 @@
 		CE9103E620F74B4F00353AD2 = {
 			isa = PBXGroup;
 			children = (
-				6B023B9C20F759DD003FBA28 /* SantosViewController.swift */,
 				CE9103F120F74B4F00353AD2 /* CobatGit2 */,
 				CE9103F020F74B4F00353AD2 /* Products */,
 			);
@@ -64,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				CE9103F220F74B4F00353AD2 /* AppDelegate.swift */,
+				6B023B9C20F759DD003FBA28 /* SantosViewController.swift */,
 				CE9103F420F74B4F00353AD2 /* ViewController.swift */,
 				CE9103F620F74B4F00353AD2 /* Main.storyboard */,
 				7BC1311E20F756BD0007A35B /* AnthonyViewController.swift */,
@@ -72,6 +73,7 @@
 				CE9103FE20F74B5000353AD2 /* LaunchScreen.storyboard */,
 				CE91040120F74B5000353AD2 /* Info.plist */,
 				CE9103F920F74B4F00353AD2 /* CobatGit2.xcdatamodeld */,
+				F89D2C7B20F756BE000216DD /* KlaudiusViewController.swift */,
 			);
 			path = CobatGit2;
 			sourceTree = "<group>";
