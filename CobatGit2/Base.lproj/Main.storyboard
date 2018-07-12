@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -310,15 +310,13 @@
                                 <state key="normal" title="Button" image="egg"/>
                                 <connections>
                                     <action selector="eggButton:" destination="HgT-JW-vUk" eventType="touchUpInside" id="DMd-AK-Kd5"/>
+                                    <segue destination="Dhg-8R-m20" kind="show" id="U9E-Vq-p30"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="yhn-iy-AyW"/>
                     </view>
-                    <connections>
-                        <segue destination="Dhg-8R-m20" kind="show" id="vj9-eG-8Js"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pfg-Si-5be" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
