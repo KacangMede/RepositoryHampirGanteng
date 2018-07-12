@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -244,6 +244,10 @@
                                 <rect key="frame" x="0.0" y="539" width="375" height="356"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Av-WN-0wv">
+                                <rect key="frame" x="30" y="645" width="322" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="FSL-K5-6Rt"/>
@@ -251,7 +255,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B2L-l1-vEe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2194.4000000000001" y="26.600985221674879"/>
+            <point key="canvasLocation" x="2180" y="53.940886699507388"/>
         </scene>
         <!--Gaby View Controller-->
         <scene sceneID="C27-3y-Sdg">
@@ -407,6 +411,8 @@
     <resources>
         <image name="Gift" width="471" height="471"/>
         <image name="Photo on 12-07-18 at 16.30" width="1080" height="720"/>
+        <image name="black-border-black-simple-frame-png-image-and-clipart-for-free-with-simple-square-border" width="650" height="650"/>
+        <image name="egg" width="500" height="443"/>
         <image name="kacangmede" width="650" height="413"/>
         <image name="monas4" width="1125" height="2436"/>
         <image name="timwc" width="1000" height="1000"/>
