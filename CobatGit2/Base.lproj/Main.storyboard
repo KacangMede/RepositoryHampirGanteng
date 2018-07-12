@@ -80,7 +80,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7hO-LG-NOt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="526" y="768"/>
+            <point key="canvasLocation" x="513" y="790"/>
         </scene>
         <!--Anthony View Controller-->
         <scene sceneID="KMj-yh-PqQ">
@@ -122,7 +122,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ljC-ZV-7Ti" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1224.8" y="767.73399014778329"/>
+            <point key="canvasLocation" x="1202" y="768"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DrP-hk-zqq">
@@ -203,7 +203,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B2L-l1-vEe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1225" y="54"/>
+            <point key="canvasLocation" x="1252" y="27"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="C27-3y-Sdg">
@@ -275,7 +275,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VF8-eU-RCJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2664.8000000000002" y="53.940886699507388"/>
+            <point key="canvasLocation" x="2646" y="54"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8kx-Yy-9Ii">
@@ -284,13 +284,22 @@
                     <view key="view" contentMode="scaleToFill" id="ZwL-hb-yob">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ricky" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9GO-LC-Yb0">
+                                <rect key="frame" x="146" y="325" width="82" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="UMf-M5-iuc"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SBA-dn-JDQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3359" y="54"/>
+            <point key="canvasLocation" x="3396" y="54"/>
         </scene>
     </scenes>
     <resources>
