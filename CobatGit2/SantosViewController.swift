@@ -11,8 +11,7 @@ import UIKit
 class SantosViewController: UIViewController {
 
     @IBAction func segueKeNelis(_ sender: Any) {
-        performSegue(withIdentifier: "SantosToNelis", sender: self)
-    }
+        performSegue(withIdentifier: "SantosToNelis", sender: self)    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
