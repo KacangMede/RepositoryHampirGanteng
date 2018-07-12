@@ -318,15 +318,13 @@
                                 <state key="normal" title="Button" image="egg"/>
                                 <connections>
                                     <action selector="eggButton:" destination="HgT-JW-vUk" eventType="touchUpInside" id="DMd-AK-Kd5"/>
+                                    <segue destination="Dhg-8R-m20" kind="show" id="U9E-Vq-p30"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="yhn-iy-AyW"/>
                     </view>
-                    <connections>
-                        <segue destination="Dhg-8R-m20" kind="show" id="vj9-eG-8Js"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pfg-Si-5be" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
