@@ -148,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE9103F520F74B4F00353AD2 /* ViewController.swift in Sources */,
+				55BEC2C420F756BF008117EA /* GabyViewController.swift in Sources */,
 				CE9103F320F74B4F00353AD2 /* AppDelegate.swift in Sources */,
 				7BC1311F20F756BD0007A35B /* AnthonyViewController.swift in Sources */,
 				11EE7CBC20F751EC00FB756A /* NelisViewController.swift in Sources */,
