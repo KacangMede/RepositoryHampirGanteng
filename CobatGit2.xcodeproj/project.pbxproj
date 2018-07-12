@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11EE7CBC20F751EC00FB756A /* NelisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE7CBB20F751EC00FB756A /* NelisViewController.swift */; };
 		CE9103F320F74B4F00353AD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9103F220F74B4F00353AD2 /* AppDelegate.swift */; };
 		CE9103F520F74B4F00353AD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9103F420F74B4F00353AD2 /* ViewController.swift */; };
 		CE9103F820F74B4F00353AD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9103F620F74B4F00353AD2 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11EE7CBB20F751EC00FB756A /* NelisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NelisViewController.swift; sourceTree = "<group>"; };
 		CE9103EF20F74B4F00353AD2 /* CobatGit2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CobatGit2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9103F220F74B4F00353AD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE9103F420F74B4F00353AD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				CE9103F220F74B4F00353AD2 /* AppDelegate.swift */,
 				CE9103F420F74B4F00353AD2 /* ViewController.swift */,
 				CE9103F620F74B4F00353AD2 /* Main.storyboard */,
+				11EE7CBB20F751EC00FB756A /* NelisViewController.swift */,
 				CE9103FC20F74B5000353AD2 /* Assets.xcassets */,
 				CE9103FE20F74B5000353AD2 /* LaunchScreen.storyboard */,
 				CE91040120F74B5000353AD2 /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				CE9103F520F74B4F00353AD2 /* ViewController.swift in Sources */,
 				CE9103F320F74B4F00353AD2 /* AppDelegate.swift in Sources */,
+				11EE7CBC20F751EC00FB756A /* NelisViewController.swift in Sources */,
 				CE9103FB20F74B4F00353AD2 /* CobatGit2.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
