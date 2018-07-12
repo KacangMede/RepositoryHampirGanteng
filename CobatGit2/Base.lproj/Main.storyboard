@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -346,12 +346,10 @@
                                 <rect key="frame" x="16" y="56" width="345" height="526"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nx-Wb-Ysk">
-                                <rect key="frame" x="109" y="619" width="166" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Santos Trash"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="hUo-pW-8tR"/>
+                                    <action selector="segueKeNelis:" destination="vpg-7Y-tJh" eventType="touchUpInside" id="Oz4-yX-Kb8"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="ezG-jk-y1p"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -363,6 +361,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fsz-Fg-j1u"/>
                     </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="SantosToNelis" id="nDy-pd-tB9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="itU-bP-DnT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
