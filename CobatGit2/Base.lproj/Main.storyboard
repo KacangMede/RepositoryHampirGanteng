@@ -25,14 +25,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgC-xg-rt6">
+                                <rect key="frame" x="160" y="631" width="55" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="Q8d-6y-cYb" kind="show" id="zzf-VI-0HH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="dvg-NF-aLo"/>
-                    <connections>
-                        <segue destination="Q8d-6y-cYb" kind="show" id="Z0H-Bg-TGh"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -364,6 +370,7 @@
     </scenes>
     <resources>
         <image name="Gift" width="471" height="471"/>
+        <image name="Photo on 12-07-18 at 16.30" width="1080" height="720"/>
         <image name="kacangmede" width="650" height="413"/>
         <image name="monas4" width="1125" height="2436"/>
     </resources>
