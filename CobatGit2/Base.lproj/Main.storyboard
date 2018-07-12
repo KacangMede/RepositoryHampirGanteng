@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<<<<<<< HEAD
+    <device id="retina5_9" orientation="portrait">
+=======
     <device id="retina4_7" orientation="portrait">
+>>>>>>> a03fc5a63c07173588bfb4e534426154acf165e1
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -54,6 +58,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B2L-l1-vEe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1033" y="125"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="C27-3y-Sdg">
+            <objects>
+                <viewController id="HgT-JW-vUk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6uj-bc-b7Y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="yhn-iy-AyW"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pfg-Si-5be" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="878" y="140"/>
         </scene>
     </scenes>
 </document>
