@@ -15,6 +15,7 @@
 		CE9103FB20F74B4F00353AD2 /* CobatGit2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE9103F920F74B4F00353AD2 /* CobatGit2.xcdatamodeld */; };
 		CE9103FD20F74B5000353AD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9103FC20F74B5000353AD2 /* Assets.xcassets */; };
 		CE91040020F74B5000353AD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9103FE20F74B5000353AD2 /* LaunchScreen.storyboard */; };
+		F89D2C7C20F756BE000216DD /* KlaudiusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89D2C7B20F756BE000216DD /* KlaudiusViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CE9103FC20F74B5000353AD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE9103FF20F74B5000353AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE91040120F74B5000353AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89D2C7B20F756BE000216DD /* KlaudiusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlaudiusViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				CE9103FE20F74B5000353AD2 /* LaunchScreen.storyboard */,
 				CE91040120F74B5000353AD2 /* Info.plist */,
 				CE9103F920F74B4F00353AD2 /* CobatGit2.xcdatamodeld */,
+				F89D2C7B20F756BE000216DD /* KlaudiusViewController.swift */,
 			);
 			path = CobatGit2;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE9103F520F74B4F00353AD2 /* ViewController.swift in Sources */,
+				55BEC2C420F756BF008117EA /* GabyViewController.swift in Sources */,
 				CE9103F320F74B4F00353AD2 /* AppDelegate.swift in Sources */,
 				7BC1311F20F756BD0007A35B /* AnthonyViewController.swift in Sources */,
 				11EE7CBC20F751EC00FB756A /* NelisViewController.swift in Sources */,
