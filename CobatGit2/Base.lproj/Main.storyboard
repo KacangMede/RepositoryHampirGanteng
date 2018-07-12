@@ -345,9 +345,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="43"/>
                                 <state key="normal" title="Santos"/>
-                                <connections>
-                                    <action selector="segueKeNelis:" destination="vpg-7Y-tJh" eventType="touchUpInside" id="Oz4-yX-Kb8"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
